@@ -39,6 +39,14 @@
       <option name="presentableId" value="Default" />
       <updated>1679264509058</updated>
     </task>
+    <task id="LOCAL-00001" summary="wrote test calculator">
+      <created>1679267136693</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679267136693</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,5 +90,9 @@
         <entry key="73e9a958-4a38-485e-bb7c-1697c9740875" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wrote test calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote test calculator" />
   </component>
 </project>
