@@ -18,7 +18,7 @@ public class testKaAc {
                 System.out.println("Выход из приложения...");
                 System.exit(0); // Функцию выхода
             }
-            if(uInput.contains("normal"))
+            if(uInput.contains("cheatMod"))
             {
                 normalMode = true;
                 System.out.println("Ограничения отключены");
@@ -49,18 +49,18 @@ public class testKaAc {
         int romanNum1 = romanToArabic(tmpNum1); // Присваивание tmpNum1 объект romanToArabic и называем это всё romanNum1
         int romanNum2 = romanToArabic(tmpNum2);
         if((romanNum1 > 10 || romanNum2 > 10) && !normalMode) throw new RuntimeException("Доступны операции с числами от 1 до 10"); // Если первое или второе число > 10 и normalMode == false, то пишем исключени
-        if(!(romanNum1 < 0 && romanNum2 < 0)) // Tckb
+        if(!(romanNum1 < 0 && romanNum2 < 0)) //
         {
             if(romanNum1 < 0 || romanNum2 < 0) throw new RuntimeException("Используются одновременно разные системы счисления");
             result = Calculate(romanNum1, romanNum2, n);
             if(result < 1) throw new RuntimeException("Недопустимый результат в выбранной системе счисления");
-            return "Результат: " + arabicToRoman(result);
+            return "Результат: " + arabicToRoman(result) + " (Или же: " + romanToArabic(arabicToRoman(result)) + ")";
         }
         int arabicNum2 = parseInt(tmpNum2);
         int arabicNum1 = parseInt(tmpNum1);
         if((arabicNum1 > 10 || arabicNum2 > 10) && !normalMode) throw new RuntimeException("Доступны операции с числами от 1 до 10");
         result = Calculate(arabicNum1, arabicNum2, n);
-        return "Результат: " + result;
+        return "Результат: " + result + " (Или же: " + arabicToRoman(result) + ")";
     }
 
     private static int Calculate(int num1, int num2, char opera)

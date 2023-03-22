@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12f26ccf-1c83-4a12-8b75-74a559dd34f6" name="Changes" comment="fix bugs">
+    <list default="true" id="12f26ccf-1c83-4a12-8b75-74a559dd34f6" name="Changes" comment="Adding comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testKaAc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testKaAc.java" afterDir="false" />
     </list>
@@ -20,6 +20,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="0b3a63b4-8943-46fa-b870-dbd0705b9123" />
+        <option name="url" value="https://github.com/MrMikki-boop/testCalculator.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679313420482</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding comments">
+      <created>1679500787702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679500787702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wrote test calculator" />
     <MESSAGE value="fix bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+    <MESSAGE value="Adding comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding comments" />
   </component>
 </project>
