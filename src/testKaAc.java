@@ -56,7 +56,7 @@ public class testKaAc {
             if(result < 1) throw new RuntimeException("Недопустимый результат в выбранной системе счисления");
             return "Результат: " + arabicToRoman(result) + " (Или же: " + romanToArabic(arabicToRoman(result)) + ")";
         }
-        int arabicNum2 = parseInt(tmpNum2);
+        int arabicNum2 = parseInt(tmpNum2); // данная строка кода может использоваться для преобразования числовых значений, которые были введены пользователем в виде строк, в целочисленный формат для дальнейшей обработки программой.
         int arabicNum1 = parseInt(tmpNum1);
         if((arabicNum1 > 10 || arabicNum2 > 10) && !normalMode) throw new RuntimeException("Доступны операции с числами от 1 до 10");
         result = Calculate(arabicNum1, arabicNum2, n);
