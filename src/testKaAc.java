@@ -157,3 +157,19 @@ public class testKaAc {
         }
     }
 }
+
+/*
+import java.util.*;
+
+public class Main {
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+    public static void in(String[] args) {
+        Scanner console = new Scanner(System.in);
+        int uInput1 = console.nextInt();
+        int uInput2 = console.nextInt();
+        System.out.println(sum(uInput2, uInput1));
+    }
+}
+ */
